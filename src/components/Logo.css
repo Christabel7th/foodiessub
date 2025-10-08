@@ -1,0 +1,47 @@
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 59px;
+    font-weight: 900;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.4s ease-in-out;
+  
+  }
+  
+  .logo:hover {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  
+
+  @keyframes smoothBounce {
+    0%   { transform: translateY(-4px); }
+    50%  { transform: translateY(4px); }  
+    100% { transform: translateY(-4px); }   
+  }
+  
+  .logo .brand {
+    color: #DF1B22;
+    text-transform: uppercase;
+    display: inline-block;
+    animation: smoothBounce 3s infinite ease-in-out;
+  }
+  
+  .logo .ss {
+    background: linear-gradient(90deg, #fd2027, #2f992a); 
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    display: inline-block;
+    font-weight: 900;
+    letter-spacing: -2px;
+  }
+  
+  .logo .sub {
+    background: linear-gradient(90deg, #38b332, #a8B4c0); 
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent; 
+    display: inline-block;
+    font-weight: 600;
+    opacity: 0.9;
+  }
+  
+ 
